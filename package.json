@@ -1,0 +1,30 @@
+{
+  "name": "@join39/sdk",
+  "version": "0.1.0",
+  "description": "Official TypeScript SDK for the Join39 Open Platform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "join39",
+    "agents",
+    "sdk",
+    "webhook",
+    "registry"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mariagorskikh/join39-sdk"
+  },
+  "devDependencies": {
+    "@types/node": "^25.4.0",
+    "typescript": "^5.4.0"
+  }
+}

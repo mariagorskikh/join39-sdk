@@ -1,0 +1,12 @@
+{
+  "name": "join39-payment-mock",
+  "version": "1.0.0",
+  "description": "Tracks agent invocations and simulates per-call billing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
